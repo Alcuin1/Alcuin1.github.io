@@ -8,7 +8,7 @@
       <link href="/2023/12/03/%E5%9B%BE%E5%BA%8A%E4%BD%BF%E7%94%A8/"/>
       <url>/2023/12/03/%E5%9B%BE%E5%BA%8A%E4%BD%BF%E7%94%A8/</url>
       
-        <content type="html"><![CDATA[<p>先看看效果？</p><p><img src="https://telegraph-image-5gr.pages.dev/file/d8fa252ebe3ed81d76095.jpg" alt="jerek"></p><p>照片清晰度 还是不错的哈，不太清楚压缩没压缩。</p><p>b站手把手讲解：<a href="https://www.bilibili.com/video/BV13N411z7Lu">https://www.bilibili.com/video/BV13N411z7Lu</a></p><p>1.<a href="https://github.com/cf-pages/Telegraph-Image">https://github.com/cf-pages/Telegraph-Image</a></p><p>fork一个，然后看md教程即可</p><p>2.<a href="https://dash.cloudflare.com/">https://dash.cloudflare.com/</a></p><p>新建账户</p><p>3.其余按照步骤设置即可</p><p>connect github账户，新建kv，设置img_url，最后就是admin管理端的账户密码，设置好就可以使用啦，总体感觉还是很方便的！</p>]]></content>
+        <content type="html"><![CDATA[<p>先看看效果？</p><p><img src="https://2ae6fba4.telegraph-image-5gr.pages.dev/file/d8fa252ebe3ed81d76095.jpg" alt="jerek"></p><p>照片清晰度 还是不错的哈，不太清楚压缩没压缩。</p><p>b站手把手讲解：<a href="https://www.bilibili.com/video/BV13N411z7Lu">https://www.bilibili.com/video/BV13N411z7Lu</a></p><p>1.<a href="https://github.com/cf-pages/Telegraph-Image">https://github.com/cf-pages/Telegraph-Image</a></p><p>fork一个，然后看md教程即可</p><p>2.<a href="https://dash.cloudflare.com/">https://dash.cloudflare.com/</a></p><p>新建账户</p><p>3.其余按照步骤设置即可</p><p>connect github账户，新建kv，设置img_url，最后就是admin管理端的账户密码，设置好就可以使用啦，总体感觉还是很方便的！</p>]]></content>
       
       
       <categories>
