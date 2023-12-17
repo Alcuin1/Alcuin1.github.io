@@ -6,7 +6,7 @@
   <link href="https://alcuin1.github.io/atom.xml" rel="self"/>
   
   <link href="https://alcuin1.github.io/"/>
-  <updated>2023-12-17T15:50:04.902Z</updated>
+  <updated>2023-12-17T17:09:42.662Z</updated>
   <id>https://alcuin1.github.io/</id>
   
   <author>
@@ -21,8 +21,15 @@
     <link href="https://alcuin1.github.io/2023/12/17/Go%E5%8F%8D%E5%B0%84/"/>
     <id>https://alcuin1.github.io/2023/12/17/Go%E5%8F%8D%E5%B0%84/</id>
     <published>2023-12-17T15:45:05.000Z</published>
-    <updated>2023-12-17T15:50:04.902Z</updated>
+    <updated>2023-12-17T17:09:42.662Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="Go反射"><a href="#Go反射" class="headerlink" title="Go反射"></a>Go反射</h1><h2 id="1-两个核心"><a href="#1-两个核心" class="headerlink" title="1.两个核心"></a>1.两个核心</h2><ul><li><p>reflect.Value</p><p>  用于操作值，部分值可以被反射修改</p></li><li><p>reflect.Type</p><p>  用于操作类信息，类信息是只能读取</p></li></ul><p>reflect.Type可以通过reflect.Value得到，但是反过来不行。</p><h2 id="2-reflect-Kind"><a href="#2-reflect-Kind" class="headerlink" title="2.reflect Kind"></a>2.reflect Kind</h2><p>Kind是一个枚举值，用来判断操作的对应类型，比如指针、数组、切片等等，如果调用的不对，它就只panic。</p><h2 id="3-通过TDD来进行测试写逻辑"><a href="#3-通过TDD来进行测试写逻辑" class="headerlink" title="3.通过TDD来进行测试写逻辑"></a>3.通过TDD来进行测试写逻辑</h2><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Go反射&quot;&gt;&lt;a href=&quot;#Go反射&quot; class=&quot;headerlink&quot; title=&quot;Go反射&quot;&gt;&lt;/a&gt;Go反射&lt;/h1&gt;&lt;h2 id=&quot;1-两个核心&quot;&gt;&lt;a href=&quot;#1-两个核心&quot; class=&quot;headerlink&quot; title=&quot;1.两个核</summary>
+      
     
     
     

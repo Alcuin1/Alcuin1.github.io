@@ -7,7 +7,16 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 7.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Jerek的code world</h1><a id="logo" href="/.">Jerek的code world</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a><a href="/about/"><i class="fa fa-user"> About</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/2023/12/17/Go%E5%8F%8D%E5%B0%84/">Go反射</a></h1><div class="post-meta">2023-12-17</div><p class="readmore"><a href="/2023/12/17/Go%E5%8F%8D%E5%B0%84/">Read More</a></p></div><div class="post"><h1 class="post-title"><a href="/2023/12/03/%E5%9B%BE%E5%BA%8A%E4%BD%BF%E7%94%A8/">图床使用</a></h1><div class="post-meta">2023-12-03</div><div class="post-content">先看看效果？
+});</script><meta name="generator" content="Hexo 7.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Jerek的code world</h1><a id="logo" href="/.">Jerek的code world</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a><a href="/about/"><i class="fa fa-user"> About</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/2023/12/17/Go%E5%8F%8D%E5%B0%84/">Go反射</a></h1><div class="post-meta">2023-12-17</div><div class="post-content">Go反射1.两个核心
+reflect.Value
+  用于操作值，部分值可以被反射修改
+
+reflect.Type
+  用于操作类信息，类信息是只能读取
+
+
+reflect.Type可以通过reflect.Value得到，但是反过来不行。
+2.reflect KindKind是一个枚举值，用来判断操作的对应类型，比如指针、数组、切片等等，如果调用的不对，它就...</div><p class="readmore"><a href="/2023/12/17/Go%E5%8F%8D%E5%B0%84/">Read More</a></p></div><div class="post"><h1 class="post-title"><a href="/2023/12/03/%E5%9B%BE%E5%BA%8A%E4%BD%BF%E7%94%A8/">图床使用</a></h1><div class="post-meta">2023-12-03</div><div class="post-content">先看看效果？
 
 照片清晰度 还是不错的哈，不太清楚压缩没压缩。
 b站手把手讲解：https://www.bilibili.com/video/BV13N411z7Lu
