@@ -6,7 +6,7 @@
   <link href="https://alcuin1.github.io/atom.xml" rel="self"/>
   
   <link href="https://alcuin1.github.io/"/>
-  <updated>2023-12-28T12:24:10.952Z</updated>
+  <updated>2024-01-05T05:40:18.219Z</updated>
   <id>https://alcuin1.github.io/</id>
   
   <author>
@@ -17,13 +17,65 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>markdown基本语法</title>
+    <link href="https://alcuin1.github.io/2024/01/05/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    <id>https://alcuin1.github.io/2024/01/05/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</id>
+    <published>2024-01-05T05:32:01.000Z</published>
+    <updated>2024-01-05T05:40:18.219Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先上<a href="https://markdown.com.cn/basic-syntax/">官方参考链接</a></p><p>其次简单使用一下常用的有哪些</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;首先上&lt;a href=&quot;https://markdown.com.cn/basic-syntax/&quot;&gt;官方参考链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;其次简单使用一下常用的有哪些&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="markdown" scheme="https://alcuin1.github.io/categories/markdown/"/>
+    
+    
+    <category term="markdown" scheme="https://alcuin1.github.io/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git常用命令</title>
+    <link href="https://alcuin1.github.io/2024/01/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>https://alcuin1.github.io/2024/01/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+    <published>2024-01-05T05:21:46.000Z</published>
+    <updated>2024-01-05T05:39:49.177Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git常用命令"><a href="#git常用命令" class="headerlink" title="git常用命令"></a>git常用命令</h1><h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><p>常用命令以及开发顺序如下：</p><p><code>git clone git链接, git init  , git pull, git branch -b newBranch，git status, git add ., git commit -m &quot;your commit message&quot;</code></p><p><code>git push --set-upstream origin feat_new,  git push, git merge master</code></p><h2 id="配置config信息"><a href="#配置config信息" class="headerlink" title="配置config信息"></a>配置config信息</h2><p><code>git config (--global) user.name &quot;xxx&quot; git config (--global) user.email &quot;xx@163.com&quot;</code></p><h2 id="gitignore"><a href="#gitignore" class="headerlink" title=".gitignore"></a>.gitignore</h2><h3 id="不生效怎么办？"><a href="#不生效怎么办？" class="headerlink" title="不生效怎么办？"></a>不生效怎么办？</h3><h2 id="Cherry-pick"><a href="#Cherry-pick" class="headerlink" title="Cherry-pick"></a>Cherry-pick</h2><h2 id="Rebase"><a href="#Rebase" class="headerlink" title="Rebase"></a>Rebase</h2><h3 id="rebase-i-怎么用？"><a href="#rebase-i-怎么用？" class="headerlink" title="rebase -i 怎么用？"></a>rebase -i 怎么用？</h3><h2 id="Squash"><a href="#Squash" class="headerlink" title="Squash"></a>Squash</h2><h2 id="回退版本"><a href="#回退版本" class="headerlink" title="回退版本"></a>回退版本</h2><p>git reset 与git revert的区别</p><h2 id="Push到远程之后如何删除提交记录呢？"><a href="#Push到远程之后如何删除提交记录呢？" class="headerlink" title="Push到远程之后如何删除提交记录呢？"></a>Push到远程之后如何删除提交记录呢？</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;git常用命令&quot;&gt;&lt;a href=&quot;#git常用命令&quot; class=&quot;headerlink&quot; title=&quot;git常用命令&quot;&gt;&lt;/a&gt;git常用命令&lt;/h1&gt;&lt;h2 id=&quot;基本操作&quot;&gt;&lt;a href=&quot;#基本操作&quot; class=&quot;headerlink&quot; titl</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://alcuin1.github.io/categories/git/"/>
+    
+    
+    <category term="git" scheme="https://alcuin1.github.io/tags/git/"/>
+    
+    <category term="版本管理" scheme="https://alcuin1.github.io/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2023 年度总结</title>
     <link href="https://alcuin1.github.io/2023/12/28/2023%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
     <id>https://alcuin1.github.io/2023/12/28/2023%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</id>
     <published>2023-12-28T12:10:32.000Z</published>
-    <updated>2023-12-28T12:24:10.952Z</updated>
+    <updated>2024-01-05T05:39:28.639Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="2023年度总结"><a href="#2023年度总结" class="headerlink" title="2023年度总结"></a>2023年度总结</h1><p>不知不觉就又到年末了，今天是28号，再有几天就到了新的一年2024年了，这一年是自己完整地工作的第一年，感觉时间过的很快，自己已经真正的从学生变成一个打工人了，熟悉了早晚出勤的生活状态，熟悉了工作日上班，周末休息的标准两点一线生活。</p><p>感觉博客是个好东西，能留下来很多想法，所以就想自己记录一下。</p><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>回顾过去一年的工作成果，包括完成的项目、取得的成就、获得的奖励等等，同时也要反思过去的不足和需要改进的地方。</p><h3 id="技能"><a href="#技能" class="headerlink" title="技能"></a>技能</h3><p>评估自己在工作中的技能和能力，了解自己的优势和劣势，制定提升自己的计划，包括学习新技能、参加培训和会议等等。</p><h3 id="个人成长"><a href="#个人成长" class="headerlink" title="个人成长"></a>个人成长</h3><p>回顾自己在过去一年中的个人成长和发展，包括身体健康、心理健康、家庭生活和社交生活等方面，同时也要制定新的目标和计划，为未来的个人成长打下坚实的基础。</p><h3 id="团队合作"><a href="#团队合作" class="headerlink" title="团队合作"></a>团队合作</h3><p>评估自己在团队合作中的表现和贡献，了解团队合作中存在的问题和挑战，制定新的团队合作计划，提高团队合作的效率和质量。</p><h3 id="社会责任"><a href="#社会责任" class="headerlink" title="社会责任"></a>社会责任</h3><p>回顾自己在过去一年中对社会的贡献和责任，包括参与公益活动、支持环保和可持续发展等方面，同时也要制定新的社会责任计划，为未来的社会贡献做出更多的努力。</p><h2 id="身体健康"><a href="#身体健康" class="headerlink" title="身体健康"></a>身体健康</h2><p>今年看了看运动记录，相较于去年真的自律了很多，尤其是在后面颈椎不舒服以后，就提升了运动频率，尤其在下半年，每周坚持去运动至少两个小时，而且平时也会走路下班，健康了很多。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="2023年度总结"><a href="#2023年度总结" class="headerlink" title="2023年度总结"></a>2023年度总结</h1><p>不知不觉就又到年末了，今天是28号，再有几天就到了新的一年2024年了，这一年是自己完整地工作的第一年，感觉时间过的很快，自己已经真正的从学生变成一个打工人了，熟悉了早晚出勤的生活状态，熟悉了工作日上班，周末休息的标准两点一线生活。</p><p>感觉博客是个好东西，能留下来很多想法，所以就想自己记录一下。</p><h2 id="关键词：稳健成长"><a href="#关键词：稳健成长" class="headerlink" title="关键词：稳健成长"></a>关键词：稳健成长</h2><p>给自己一个贴切的年度关键词。这就像一本书的目录，能够让你快速想起之后的事情。</p><ul><li>健康自律</li><li>减肥成功</li><li>记录博客</li><li>直面挫折</li></ul><h2 id="1-学习成长"><a href="#1-学习成长" class="headerlink" title="1.学习成长"></a>1.学习成长</h2><p>更加自律，更加成熟，更加懂得自己想要什么。</p><h2 id="2-体验突破、娱乐休闲"><a href="#2-体验突破、娱乐休闲" class="headerlink" title="2.体验突破、娱乐休闲"></a>2.体验突破、娱乐休闲</h2><p>描述本年度在该维度下的成长或变化</p><p>第一次深圳路人局露营</p><p>第一次福田徒步运动</p><p>第一次拥有大疆无人机并炸机(bushi</p><p><img src="https://telegraph-image-5gr.pages.dev/file/41d7f39a5eabef83e9c19.png" alt="DJI"></p><p>第一次深圳大鹏户外烧烤</p><p>第一次去香港迪士尼</p><p>第一次看演唱会</p><p>第一次八个小时的自驾</p><p><img src="https://telegraph-image-5gr.pages.dev/file/2a1dd06ffe5d091f90ecf.png" alt="自驾"></p><p>第一次攀岩</p><p><img src="https://telegraph-image-5gr.pages.dev/file/96cb967602ec75c78fb64.jpg" alt="攀岩🧗🏻‍♀️"></p><p>第一次一个人做手术和拔牙 (22年11月与23年2月</p><p>第一次带老妈去广州、珠海、香港、澳门旅游，体验不同城市的感觉</p><p>第一次看司庆篮球赛</p><p>第一次工作之后再次见到多年没见老同学</p><p>第一次写博客</p><p>第一次体验正念</p><p>第一次见和女朋友一起见双方父母</p><p>第一次利用公司平台与行家大佬咨询摄影，减肥，自我成长等等</p><h2 id="3-工作事业"><a href="#3-工作事业" class="headerlink" title="3.工作事业"></a>3.工作事业</h2><p>今年在是完整工作的的第一年，逐渐适应了每天两点一线的生活，也要学会积极去面对工作中的挫折与不顺心</p><p>建立自己的职业壁垒</p><p>逐步形成个人IP</p><h2 id="4-家庭生活"><a href="#4-家庭生活" class="headerlink" title="4.家庭生活"></a>4.家庭生活</h2><p>学会如何处理亲密关系，如何更好地去爱自己在意的人。感情双方付出都是有意义的，遇到困难不能轻易放弃而是互相支持鼓励，双方一起的付出，将来是一定会有回报的。</p><p>珍惜与父母的联系，多关心爱护，心怀感恩，报答他们。同时也要理解到每一代人都是有代沟的，很多观念都是不能说服对方的，承认这一点很重要。</p><h2 id="5-身心健康"><a href="#5-身心健康" class="headerlink" title="5.身心健康"></a>5.身心健康</h2><p>今年看了看运动记录，相较于去年真的自律了很多，尤其是在后面颈椎不舒服以后，就提升了运动频率，尤其在下半年，每周坚持去运动至少两个小时，而且平时也会走路下班，健康了很多。</p><p><img src="https://telegraph-image-5gr.pages.dev/file/f736f41bde3e68ba82ec7.png" alt="健康"></p><h2 id="6-收支理财"><a href="#6-收支理财" class="headerlink" title="6.收支理财"></a>6.收支理财</h2><p>今年理财收益越有6k元，虽然不太多，但是也有在努力认真的攒钱呀</p><h2 id="7-人际社交"><a href="#7-人际社交" class="headerlink" title="7.人际社交"></a>7.人际社交</h2><p>出来深圳以后，和朋友的联系变少了很多，去年刚来到这里，还会主动去参加一些社交活动，后面发现挺累的，维持几段高质量的亲密关系真的需要付出很多精力，后面慢慢的还是更加专注在自我提升。</p><h2 id="8-反思与教训"><a href="#8-反思与教训" class="headerlink" title="8.反思与教训"></a>8.反思与教训</h2><p>工作上定期反思，积极主动，学会挑战自己的极限</p><p>生活上不要贪图便宜，经常用的一定要买好的</p><p>平时要多拍照纪念和留念每一个值得回忆的画面，保留美好的瞬间</p><h2 id="总结与期待"><a href="#总结与期待" class="headerlink" title="总结与期待"></a>总结与期待</h2><p>给自己的这一年写一段总结：</p><p>今年总体来说，平安健康，越来越有社会打工人的样子了，越来越自律，珍惜感情，注重自我提升。</p><p>而且面对挫折困难时，要抗住压力。人生不可能总是一帆风顺的，再大的困难，放到面前，也什么大不了的，学会与自己和解。</p><p>明年的flags：</p><ul><li>每周都要坚持运动2小时</li><li>制定目标，并且将其拆分为小目标，细分每个月，甚至半个月，一个一个来</li><li>每个月至少1-2篇文章输出(技术成长or其他方面</li><li>学习两个新的技能（滑雪、摄影、航拍、popping、唱歌、冲浪等等</li><li>探索至少两个新大陆（西北、北京、上海等等</li></ul>]]></content>
     
     
       
@@ -65,23 +117,23 @@
   </entry>
   
   <entry>
-    <title>Go反射</title>
-    <link href="https://alcuin1.github.io/2023/12/17/Go%E5%8F%8D%E5%B0%84/"/>
-    <id>https://alcuin1.github.io/2023/12/17/Go%E5%8F%8D%E5%B0%84/</id>
+    <title>go反射</title>
+    <link href="https://alcuin1.github.io/2023/12/17/go%E5%8F%8D%E5%B0%84/"/>
+    <id>https://alcuin1.github.io/2023/12/17/go%E5%8F%8D%E5%B0%84/</id>
     <published>2023-12-17T15:45:05.000Z</published>
-    <updated>2023-12-23T15:52:32.016Z</updated>
+    <updated>2024-01-05T05:41:26.195Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Go反射"><a href="#Go反射" class="headerlink" title="Go反射"></a>Go反射</h1><h2 id="1-两个核心"><a href="#1-两个核心" class="headerlink" title="1.两个核心"></a>1.两个核心</h2><ul><li><p>reflect.Value</p><p>  用于操作值，部分值可以被反射修改</p></li><li><p>reflect.Type</p><p>  用于操作类信息，类信息是只能读取</p></li></ul><p>reflect.Type可以通过reflect.Value得到，但是反过来不行。</p><h2 id="2-reflect-Kind"><a href="#2-reflect-Kind" class="headerlink" title="2.reflect Kind"></a>2.reflect Kind</h2><p>Kind是一个枚举值，用来判断操作的对应类型，比如指针、数组、切片等等，如果调用的不对，它就只panic。</p><h2 id="3-field"><a href="#3-field" class="headerlink" title="3.field"></a>3.field</h2><h2 id="4-func"><a href="#4-func" class="headerlink" title="4.func"></a>4.func</h2><h2 id="5-遍历"><a href="#5-遍历" class="headerlink" title="5.遍历"></a>5.遍历</h2><h2 id="3-通过TDD来进行测试写逻辑"><a href="#3-通过TDD来进行测试写逻辑" class="headerlink" title="3.通过TDD来进行测试写逻辑"></a>3.通过TDD来进行测试写逻辑</h2><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="go反射"><a href="#go反射" class="headerlink" title="go反射"></a>go反射</h1><h2 id="1-两个核心"><a href="#1-两个核心" class="headerlink" title="1.两个核心"></a>1.两个核心</h2><ul><li><p>reflect.Value</p><p>  用于操作值，部分值可以被反射修改</p></li><li><p>reflect.Type</p><p>  用于操作类信息，类信息是只能读取</p></li></ul><p>reflect.Type可以通过reflect.Value得到，但是反过来不行。</p><h2 id="2-reflect-Kind"><a href="#2-reflect-Kind" class="headerlink" title="2.reflect Kind"></a>2.reflect Kind</h2><p>Kind是一个枚举值，用来判断操作的对应类型，比如指针、数组、切片等等，如果调用的不对，它就只panic。</p><h2 id="3-field"><a href="#3-field" class="headerlink" title="3.field"></a>3.field</h2><h2 id="4-func"><a href="#4-func" class="headerlink" title="4.func"></a>4.func</h2><h2 id="5-遍历"><a href="#5-遍历" class="headerlink" title="5.遍历"></a>5.遍历</h2><h2 id="3-通过TDD来进行测试写逻辑"><a href="#3-通过TDD来进行测试写逻辑" class="headerlink" title="3.通过TDD来进行测试写逻辑"></a>3.通过TDD来进行测试写逻辑</h2><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;Go反射&quot;&gt;&lt;a href=&quot;#Go反射&quot; class=&quot;headerlink&quot; title=&quot;Go反射&quot;&gt;&lt;/a&gt;Go反射&lt;/h1&gt;&lt;h2 id=&quot;1-两个核心&quot;&gt;&lt;a href=&quot;#1-两个核心&quot; class=&quot;headerlink&quot; title=&quot;1.两个核</summary>
+    <summary type="html">&lt;h1 id=&quot;go反射&quot;&gt;&lt;a href=&quot;#go反射&quot; class=&quot;headerlink&quot; title=&quot;go反射&quot;&gt;&lt;/a&gt;go反射&lt;/h1&gt;&lt;h2 id=&quot;1-两个核心&quot;&gt;&lt;a href=&quot;#1-两个核心&quot; class=&quot;headerlink&quot; title=&quot;1.两个核</summary>
       
     
     
     
-    <category term="Go" scheme="https://alcuin1.github.io/categories/Go/"/>
+    <category term="go" scheme="https://alcuin1.github.io/categories/go/"/>
     
     
     <category term="go" scheme="https://alcuin1.github.io/tags/go/"/>
@@ -119,7 +171,7 @@
     <link href="https://alcuin1.github.io/2023/12/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>https://alcuin1.github.io/2023/12/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2023-12-01T15:16:35.000Z</published>
-    <updated>2023-12-28T12:21:23.848Z</updated>
+    <updated>2024-01-05T05:22:00.685Z</updated>
     
     <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>作为一名技术工程师，出于知识积累记录自己成长方面的原因，来搭建一个属于自己的博客，这里会放一些技术相关以及阅读笔记，以及一些自己的想法等等</p><h2 id="搭建的三种途径"><a href="#搭建的三种途径" class="headerlink" title="搭建的三种途径"></a>搭建的三种途径</h2><ul><li>手写前端+后端，买一台服务器，然后部署上面</li></ul><p>优点：个性化强<br>缺点：对小白不友好</p><ul><li>通过github以及vercel进行联动部署，本地仓库写好博客以后推送到git平台自动化部署即可</li></ul><p>优点：操作简单，可以专注于博客内容<br>缺点：待补充…</p><ul><li>通过vercel与第三方组件联动，比如notion等知识管理工具</li></ul><p>优点：操作极其简单<br>缺点：待补充…</p><h2 id="搭建指南"><a href="#搭建指南" class="headerlink" title="搭建指南"></a>搭建指南</h2><p>这里主要介绍一下通过github来进行搭建的教程</p><p>安装node.js <a href="https://nodejs.org/en/download/">官网</a></p><p>安装hexo，通过nmp -v 检验</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli </span><br></pre></td></tr></table></figure><p>初始化博客</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure><p>三连操作：新建文章+生成+预览</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new test_my_site</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>npm install hexo -g #安装Hexo<br>npm update hexo -g #升级</p><p>命令简写<br>hexo n “我的博客” &#x3D;&#x3D; hexo new “我的博客” #新建文章<br>hexo g &#x3D;&#x3D; hexo generate #生成<br>hexo s &#x3D;&#x3D; hexo server #启动服务预览<br>hexo d &#x3D;&#x3D; hexo deploy #部署</p><p>hexo server #Hexo会监视文件变动并自动更新，无须重启服务器<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP<br>hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</p><p>hexo new post article 创建一个名称为 article 的文章<br>hexo new page about 创建一个名称为 about 的路由页面</p><h2 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h2><p>deploy:<br>type: git<br>repo: 这里填入你之前在GitHub上创建仓库的完整路径，记得加上 .git<br>branch: master</p><h2 id="安装Git部署插件"><a href="#安装Git部署插件" class="headerlink" title="安装Git部署插件"></a>安装Git部署插件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">修改完_config.yml之后的发布四连：</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo clean </span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>只要前期在github配置部署好了，那么就默默等待你的文章上线吧~！！</p><h2 id="如何多端同步构建博客呢？-待补充"><a href="#如何多端同步构建博客呢？-待补充" class="headerlink" title="如何多端同步构建博客呢？(待补充)"></a>如何多端同步构建博客呢？(待补充)</h2><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://markdown.com.cn/basic-syntax/">MarkDown基本语法</a></p><p><a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程</a></p><p><a href="https://hexo.io/themes/">Hexo Themes</a></p><p><a href="https://linlif.github.io/2017/05/27/Hexo%E4%BD%BF%E7%94%A8%E6%94%BB%E7%95%A5-%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/">Hexo使用攻略</a></p><p><a href="https://www.cnblogs.com/guoapeng/p/17627621.html">Hexo博客添加评论功能</a></p><p><a href="https://www.cnblogs.com/guoapeng/p/17627623.html">Hexo博客搜索引擎优化</a></p><p><a href="https://chrischen0405.github.io/2018/09/11/post20180911/">hexo页脚添加访客人数和总访问量</a></p>]]></content>
     
