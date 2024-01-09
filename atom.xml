@@ -6,7 +6,7 @@
   <link href="https://alcuin1.github.io/atom.xml" rel="self"/>
   
   <link href="https://alcuin1.github.io/"/>
-  <updated>2024-01-05T05:40:18.219Z</updated>
+  <updated>2024-01-07T02:15:52.500Z</updated>
   <id>https://alcuin1.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小谈一下</title>
+    <link href="https://alcuin1.github.io/2024/01/05/%E5%B0%8F%E8%B0%88%E4%B8%80%E4%B8%8B/"/>
+    <id>https://alcuin1.github.io/2024/01/05/%E5%B0%8F%E8%B0%88%E4%B8%80%E4%B8%8B/</id>
+    <published>2024-01-05T14:29:34.000Z</published>
+    <updated>2024-01-07T02:15:52.500Z</updated>
+    
+    <content type="html"><![CDATA[<p>实践与理论</p><p>过度优化</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;实践与理论&lt;/p&gt;
+&lt;p&gt;过度优化&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>markdown基本语法</title>
@@ -47,9 +69,9 @@
     <link href="https://alcuin1.github.io/2024/01/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>https://alcuin1.github.io/2024/01/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
     <published>2024-01-05T05:21:46.000Z</published>
-    <updated>2024-01-05T05:39:49.177Z</updated>
+    <updated>2024-01-09T03:19:50.081Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="git常用命令"><a href="#git常用命令" class="headerlink" title="git常用命令"></a>git常用命令</h1><h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><p>常用命令以及开发顺序如下：</p><p><code>git clone git链接, git init  , git pull, git branch -b newBranch，git status, git add ., git commit -m &quot;your commit message&quot;</code></p><p><code>git push --set-upstream origin feat_new,  git push, git merge master</code></p><h2 id="配置config信息"><a href="#配置config信息" class="headerlink" title="配置config信息"></a>配置config信息</h2><p><code>git config (--global) user.name &quot;xxx&quot; git config (--global) user.email &quot;xx@163.com&quot;</code></p><h2 id="gitignore"><a href="#gitignore" class="headerlink" title=".gitignore"></a>.gitignore</h2><h3 id="不生效怎么办？"><a href="#不生效怎么办？" class="headerlink" title="不生效怎么办？"></a>不生效怎么办？</h3><h2 id="Cherry-pick"><a href="#Cherry-pick" class="headerlink" title="Cherry-pick"></a>Cherry-pick</h2><h2 id="Rebase"><a href="#Rebase" class="headerlink" title="Rebase"></a>Rebase</h2><h3 id="rebase-i-怎么用？"><a href="#rebase-i-怎么用？" class="headerlink" title="rebase -i 怎么用？"></a>rebase -i 怎么用？</h3><h2 id="Squash"><a href="#Squash" class="headerlink" title="Squash"></a>Squash</h2><h2 id="回退版本"><a href="#回退版本" class="headerlink" title="回退版本"></a>回退版本</h2><p>git reset 与git revert的区别</p><h2 id="Push到远程之后如何删除提交记录呢？"><a href="#Push到远程之后如何删除提交记录呢？" class="headerlink" title="Push到远程之后如何删除提交记录呢？"></a>Push到远程之后如何删除提交记录呢？</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="git常用命令"><a href="#git常用命令" class="headerlink" title="git常用命令"></a>git常用命令</h1><h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><p>常用命令以及开发顺序如下：</p><p><code>git clone git链接, git init  , git pull, git branch -b newBranch，git status, git add ., git commit -m &quot;your commit message&quot;</code></p><p><code>git push --set-upstream origin feat_new,  git push, git merge master</code></p><h2 id="配置config信息"><a href="#配置config信息" class="headerlink" title="配置config信息"></a>配置config信息</h2><p><code>git config (--global) user.name &quot;xxx&quot; git config (--global) user.email &quot;xx@163.com&quot;</code></p><h2 id="gitignore"><a href="#gitignore" class="headerlink" title=".gitignore"></a>.gitignore</h2><h3 id="不生效怎么办？"><a href="#不生效怎么办？" class="headerlink" title="不生效怎么办？"></a>不生效怎么办？</h3><h2 id="Cherry-pick"><a href="#Cherry-pick" class="headerlink" title="Cherry-pick"></a>Cherry-pick</h2><p>挑选其他分支的几个commitid，然后切换到目标分支</p><p>git checkout target_branch</p><p>复制commitid</p><p>git cherry-pick commitid 1 commitid2 … </p><p>然后目标分支会出现如下新的提交记录，按照commit1id1 和commitid 2顺序进行先后提交</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">自动合并 main.go</span><br><span class="line">[master_tmp f29a5a5] 2</span><br><span class="line"> Date: Tue Jan 9 10:40:27 2024 +0800</span><br><span class="line"> 1 file changed, 1 insertion(+)</span><br><span class="line">[master_tmp 36ddf9f] 1</span><br><span class="line"> Date: Tue Jan 9 10:58:09 2024 +0800</span><br><span class="line"> 1 file changed, 1 insertion(+)</span><br></pre></td></tr></table></figure><h2 id="Rebase"><a href="#Rebase" class="headerlink" title="Rebase"></a>Rebase</h2><p>基于master分支开出新的分支feature1进行开发</p><p>但是同时也是同样基于master分支拉出一条新的分支feature2开发，而且比你先合并到master，这时候我们可以选择merge（不符主题），也可以选择rebase</p><p>git checkout feature1</p><p>git rebase master 即可实现变基操作，然后开发完之后即可进行merge到master分支即可</p><h3 id="rebase-–onto"><a href="#rebase-–onto" class="headerlink" title="rebase –onto"></a>rebase –onto</h3><p><a href="https://www.jianshu.com/p/4c1ed3dbf421">参考</a></p><p><a href="https://womanonrails.com/git-rebase-onto">其他</a></p><p>如果需要将一个分支的几个提交，迁移到另外一个分支应该如何做呢？(所有的提交最好不要有冲突，最好不要出现修改同一处地方)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">branch1</span><br><span class="line">commit 8f18ef28</span><br><span class="line">4</span><br><span class="line">commit 4b437925</span><br><span class="line">3</span><br><span class="line">commit 20d8159e</span><br><span class="line">2</span><br><span class="line">commit 2fd34b83</span><br><span class="line">1</span><br><span class="line"></span><br><span class="line">branch2</span><br><span class="line">commit 55ab6cd6</span><br><span class="line">xxxxxx(这不重要)</span><br></pre></td></tr></table></figure><p>移动newbranch上的某几个commitid到最新的commitid到某个分支上 </p><p>语法：git rebase –onto target_branch commitid1 commitid2 (前开后闭，即不包含commitid1到commitid2)，下面一行例子就是移动提交3和4到目标分支</p><p>git rebase –onto master_tmp 20d8159e 8f18ef28 </p><p>现在会出现分离，然后生成新的分离分支：8f50335</p><p>也可以将其保存到新的分支，合并其分支到目标分支也可 git checkout -b newBranch </p><p>切换到目标分支，并且合并新的分支过来即可</p><p>git checkout master_tmp </p><p>git merge 8f50335</p><p>结果就是：</p><p>branch2</p><p>commit 8f18ef28<br>4<br>commit 4b437925<br>3</p><p>commit 55ab6cd6<br>xxxxxx(这不重要)</p><h3 id="rebase-i-怎么用？"><a href="#rebase-i-怎么用？" class="headerlink" title="rebase -i 怎么用？"></a>rebase -i 怎么用？</h3><h2 id="Squash"><a href="#Squash" class="headerlink" title="Squash"></a>Squash</h2><h2 id="回退版本"><a href="#回退版本" class="headerlink" title="回退版本"></a>回退版本</h2><p>git reset 与git revert的区别</p><h2 id="Push到远程之后如何删除提交记录呢？"><a href="#Push到远程之后如何删除提交记录呢？" class="headerlink" title="Push到远程之后如何删除提交记录呢？"></a>Push到远程之后如何删除提交记录呢？</h2>]]></content>
     
     
       
