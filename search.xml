@@ -8,7 +8,7 @@
       <link href="/2024/03/10/%E6%9C%8D%E5%8A%A1%E4%B8%8A%E4%BA%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1/"/>
       <url>/2024/03/10/%E6%9C%8D%E5%8A%A1%E4%B8%8A%E4%BA%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1/</url>
       
-        <content type="html"><![CDATA[<h1 id="服务上云学习"><a href="#服务上云学习" class="headerlink" title="服务上云学习"></a>服务上云学习</h1><p>最近学习了一门课，讲的是服务上云，后台服务上云需要关注地方有很多：高可用、高并发、安全性、可运维性等等，具体如下图所示：</p><p>图一：</p><h2 id="高可用"><a href="#高可用" class="headerlink" title="高可用"></a>高可用</h2><h3 id="诱因"><a href="#诱因" class="headerlink" title="诱因"></a>诱因</h3><ul><li>内部：代码问题、配置问题、性能问题</li><li>外部：网络故障、机房故障（电力、制冷）、服务器故障、基础组件故障、依赖服务故障、运维操作失误、恶意攻击</li></ul><h3 id="快速恢复"><a href="#快速恢复" class="headerlink" title="快速恢复"></a>快速恢复</h3><ul><li>指标：MTBF平均无故障时间、MTTR平均故障恢复时间、</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="服务上云学习"><a href="#服务上云学习" class="headerlink" title="服务上云学习"></a>服务上云学习</h1><p>最近学习了一门课，讲的是服务上云，后台服务上云需要关注地方有很多：高可用、高并发、安全性、可运维性等等，具体如下图所示：</p><p>图一：</p><h2 id="高可用"><a href="#高可用" class="headerlink" title="高可用"></a>高可用</h2><h3 id="诱因"><a href="#诱因" class="headerlink" title="诱因"></a>诱因</h3><ul><li>内部：代码问题、配置问题、性能问题</li><li>外部：网络故障、机房故障（电力、制冷）、服务器故障、基础组件故障、依赖服务故障、运维操作失误、恶意攻击</li></ul><h3 id="快速恢复"><a href="#快速恢复" class="headerlink" title="快速恢复"></a>快速恢复</h3><ul><li><p>指标</p><p>  整体服务健康度：MTBF平均无故障时间、MTTR平均故障恢复时间</p><p>  容灾恢复能力：RPO（realtime  point objective）、RTO(realtime time objective)</p></li><li><p>设计原则</p><p>  避免错误（提升MTBF）、控制影响（缩小影响范围）、快速恢复（降低MTTR）</p></li><li><p>三大要素</p><p>  接入层、逻辑层、数据层</p></li><li><p>措施</p><p>  同城冷备：多IDC环境，数据定期同步或强同步，DNS或GSLB或者CLB切换</p><p>  同城双活：不同区间内网互通，两地三中心、三地五中心、每个区承担2&#x2F;3流量、同时做好自动切换流量</p></li></ul><h3 id="避免错误"><a href="#避免错误" class="headerlink" title="避免错误"></a>避免错误</h3><ul><li><p>异常处理：防止错误请求、防止重复请求、幂等重复请求、异常中断处理</p></li><li><p>失败处理：失败立即重试、记录失败后置处理、直接失败返回异常、忽略失败继续流程</p></li><li><p>并发冲突：做好并发错误处理，以及并发场景的考虑</p><p>  完成实现目标：标准化配置、多环境、自动化来实现部署，出错可第一时间回滚。</p></li></ul><p><a href="https://mp.weixin.qq.com/s/nGtC5lBX_Iaj57HIdXq3Qg">B站202107案例</a></p><h3 id="控制影响"><a href="#控制影响" class="headerlink" title="控制影响"></a>控制影响</h3><ul><li><p>前置操作：缓存、限流、降级、错误处理</p></li><li><p>资源冗余：接入层构建DNS返回ip地址，缓存本地，递归查询；基础设施（自然灾害、供电、光缆、水冷、IDC网络，IEP&#x2F;BGP、CLB+CVM弹性收缩、DB层主从主备分片、块存储、k8s、分布式db、负载均衡架构、应用层集群横向扩展）</p></li><li><p>故障隔离：容灾心跳故障迁移</p></li></ul>]]></content>
       
       
       <categories>
@@ -178,7 +178,7 @@
       
       <categories>
           
-          <category> Go </category>
+          <category> go </category>
           
       </categories>
       
